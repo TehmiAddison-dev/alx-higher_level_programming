@@ -18,3 +18,4 @@ if (check == current)
 return (1);
 }
 return (0);
+}
