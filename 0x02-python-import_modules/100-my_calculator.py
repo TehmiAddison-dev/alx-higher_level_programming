@@ -20,4 +20,4 @@ else:
     print("Unknown operator. Available operators: +, -, * and /")
     exit(1)
 
-print("{:s} {:s} {:s} = {:d}".format(argv[1], argv[2], argv[3], result)
+print("{:s} {:s} {:s} = {:d}".format(argv[1], argv[2], argv[3], result))
