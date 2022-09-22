@@ -11,4 +11,4 @@ for argument in sys.argv:
         result += int(argument)
     else:
         i += 1
-print("{:d}".format(result)
+print("{:d}".format(result))
