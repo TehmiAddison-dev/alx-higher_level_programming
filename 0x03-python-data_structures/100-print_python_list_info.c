@@ -22,3 +22,4 @@ void print_python_list_info(PyObject *p)
 		py_type = Py_TYPE(py_list->ob_item[i])->tp_name;
 		printf("Element %ld: %s\n", i, py_type);
 	}
+}
