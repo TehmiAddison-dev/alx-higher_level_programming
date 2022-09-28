@@ -9,4 +9,4 @@ def complex_delete(a_dictionary, value):
         to_delete = {k: v for k, v in a_dictionary.items() if v == value}
         for key, val in to_delete.items():
             del a_dictionary[key]
-    return (a_dictionary.copy()
+    return (a_dictionary.copy())
