@@ -1,3 +1,9 @@
 #!/usr/bin/python3
 
-class 
+class Rectangle:
+    """Empty class Rectangle that defines a rectangle figure
+    Attributes:
+        empty
+    """
+
+    pass
