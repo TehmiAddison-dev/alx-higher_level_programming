@@ -1,4 +1,16 @@
 #!/usr/bin/python3
-def is_same_class(obj, a_class):
-    return (0)
-print(is_same_class(obj, a_class))
+"""Defines a Rectangle subclass Square."""
+Rectangle = __import__('9-rectangle').Rectangle
+
+
+class Square(Rectangle):
+    """Represent a square."""
+
+    def __init__(self, size):
+        """Initialize a new square.
+        Args:
+            size (int): The size of the new square.
+        """
+        self.integer_validator("size", size)
+        super().__init__(size, size)
+        self.__size = size
